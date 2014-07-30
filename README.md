@@ -1,7 +1,7 @@
 ParallelExecutor
 ================
 
-Library to create operations that needs to be run in parallel and join their result back once done.
+Library to create operations that needs to be run in parallel and received a callback with the joined results.
 
 Often times while developing applications we encounter situations where we've to make multiple queries to the database or multiple isolated units of computation in response to a web/rpc request. Wouldn't it be nice if we can parallelize those operations?
 
